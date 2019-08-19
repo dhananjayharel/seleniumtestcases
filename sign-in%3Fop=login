@@ -1,0 +1,338 @@
+  
+
+
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+         <title>Sign In or Sign Up to Continue | Programmr</title>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/programr_theme2013_favicon_0.png" type="image/x-icon" />
+	  <link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_b67a6f160e3086a4f0ca3ab3c2a2890d.css" />
+	  <script type="text/javascript" src="/sites/default/files/js/js_7855d547ae0ab2d8856f9c542e063df5.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "\u002f", "currentUser": 0, "drigg": { "base_path": "\u002f" }, "extra_voting_forms": { "only_one_vote": 0, "login_page": "user\u002flogin", "base_path": "\u002f" }, "fivestar": { "titleUser": "Your rating: ", "titleAverage": "Average Rating: ", "feedbackSavingVote": "Saving your vote...", "feedbackVoteSaved": "Your vote has been saved.", "feedbackDeletingVote": "Deleting your vote...", "feedbackVoteDeleted": "Your vote has been deleted." }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "lightbox2": { "rtl": 0, "file_path": "\u002f(\u005cw\u005cw\u002f)sites\u002fdefault\u002ffiles", "default_image": "\u002fsites\u002fall\u002fmodules\u002flightbox2\u002fimages\u002fbrokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.5", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 1, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 0, "disable_zoom": 0, "force_show_nav": 0, "show_caption": 1, "loop_items": 0, "node_link_text": "View Image Details", "node_link_target": 0, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \u003ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003e\u003ckbd\u003ex\u003c\u002fkbd\u003e\u003c\u002fa\u003e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": 1, "flvPlayer": "\u002fsites\u002fall\u002fmodules\u002fCopy%20of%20drigg\u002fdrigg_embed\u002fplayers\u002f1pixelout.swf", "flvFlashvars": "" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(document).ready(function (){
+  
+  hash = window.location.hash;
+  hash = hash.replace('#','.');
+  $(hash+"_tabclass a").click();
+  
+  });
+//--><!]]>
+</script>
+	  
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		<meta property="fb:admins" content="723580614, 1321576967, 100002672354767"/>
+	
+	 
+	<script src="http://malsup.github.com/jquery.form.js"></script> 
+		<script type="text/javascript">
+// Limit scope pollution from any deprecated API
+(function() {
+
+    var matched, browser;
+
+// Use of jQuery.browser is frowned upon.
+// More details: http://api.jquery.com/jQuery.browser
+// jQuery.uaMatch maintained for back-compat
+    jQuery.uaMatch = function( ua ) {
+        ua = ua.toLowerCase();
+
+        var match = /(chrome)[ \/]([\w.]+)/.exec( ua ) ||
+            /(webkit)[ \/]([\w.]+)/.exec( ua ) ||
+            /(opera)(?:.*version|)[ \/]([\w.]+)/.exec( ua ) ||
+            /(msie) ([\w.]+)/.exec( ua ) ||
+            ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec( ua ) ||
+            [];
+
+        return {
+            browser: match[ 1 ] || "",
+            version: match[ 2 ] || "0"
+        };
+    };
+
+    matched = jQuery.uaMatch( navigator.userAgent );
+    browser = {};
+
+    if ( matched.browser ) {
+        browser[ matched.browser ] = true;
+        browser.version = matched.version;
+    }
+
+// Chrome is Webkit, but Webkit is also Safari.
+    if ( browser.chrome ) {
+        browser.webkit = true;
+    } else if ( browser.webkit ) {
+        browser.safari = true;
+    }
+
+    jQuery.browser = browser;
+
+    jQuery.sub = function() {
+        function jQuerySub( selector, context ) {
+            return new jQuerySub.fn.init( selector, context );
+        }
+        jQuery.extend( true, jQuerySub, this );
+        jQuerySub.superclass = this;
+        jQuerySub.fn = jQuerySub.prototype = this();
+        jQuerySub.fn.constructor = jQuerySub;
+        jQuerySub.sub = this.sub;
+        jQuerySub.fn.init = function init( selector, context ) {
+            if ( context && context instanceof jQuery && !(context instanceof jQuerySub) ) {
+                context = jQuerySub( context );
+            }
+
+            return jQuery.fn.init.call( this, selector, context, rootjQuerySub );
+        };
+        jQuerySub.fn.init.prototype = jQuerySub.fn;
+        var rootjQuerySub = jQuerySub(document);
+        return jQuerySub;
+    };
+
+})();
+</script>
+		<script type="text/javascript" src="/sites/all/themes/programr_theme/js/CookieUtility.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/programr_theme2013/img_files/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+		var __insp = __insp || [];
+		__insp.push(['wid', 2220954060]);
+		(function() {
+			var a = window.onload;
+			function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspect/2220954060.js'; document.getElementsByTagName("head")[0].appendChild(insp); }
+			window.onload = (typeof window.onload != 'function') ? __ldinsp : function() { a(); __ldinsp(); };
+		})();
+	</script>
+	<!-- End Inspectlet Embed Code -->
+	
+	<script type="text/javascript">
+			function cursorAnimation()
+			{
+			  $("span#cursor").toggle();
+			}
+
+			$(document).ready(function()
+			{
+			  setInterval ( "cursorAnimation()", 600 );
+			 	
+			  $('input[type=text], input[type=password]').each(function(){
+				
+				$(this).addClass('input-xlarge').attr('placeholder', $(this).prev().text().replace(': *','')); 
+				$(this).prev().hide(); 				 
+				});
+				
+				$('#edit-mollom-captcha').prev().show();
+				$('#edit-mollom-captcha').prev().prev().hide();
+				$('#edit-mollom-captcha').attr('placeholder', $('#edit-mollom-captcha').prev().prev().text().replace(': *','')); 
+				$('legend').css('margin-bottom' , '0px');
+				$('#edit-profile-country').prev().hide();
+				$('.password-strength').hide();
+				$('span.password-confirm').hide();
+				$('#edit-profile-country').addClass('input-xlarge');
+				$('#edit-pass-pass2').css('margin-top', '5px');
+				$('#edit-pass-pass1').css('margin-top', '-5px');
+				$('#edit-mail').css('margin-top', '-5px');
+				$('#edit-profile-full-name').css('margin-top', '-20px');
+				$('#edit-profile-country').css('margin-top' , '-5px');
+				$('#edit-mollom-captcha-wrapper').css('margin-top' , '-5px');
+				if(jQuery.browser.msie){
+					$('[placeholder]').focus(function() {
+					  var input = $(this);
+					  if (input.val() == input.attr('placeholder')) {
+						input.val('');
+						input.removeClass('placeholder');
+					  }
+					}).blur(function() {
+					  var input = $(this);
+					  if (input.val() == '' || input.val() == input.attr('placeholder')) {
+						input.addClass('placeholder');
+						input.val(input.attr('placeholder'));
+					  }
+					}).blur();
+				}
+			});
+
+
+			</script>
+			
+		
+</head>
+    <body style="position: relative;">
+			<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=167756353414848";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+		
+	
+        <div class="container nav-box-wrapper">
+        <div class="navbar navbar-inverse">
+            <div class="">
+                <div class="container">
+                     <a  style="padding-bottom: 25px;margin-top: -15px;" class="brand" href="/" title="Home" > 
+					 <img  src="/sites/default/files/programr_theme2013_logo.png" />
+					 <span id="cursor" style="color: rgb(170, 170, 170); display: none;margin-left:-8px;font-size:24px;">|</span>
+					 <p style="font-size: 15px;color: grey;text-shadow: none;margin-left: 50px;margin-top: -10px;">Programmer's Playground</p>
+					</a>
+					<div class="head-social-icon">
+							
+					</div>	
+                    <div class="">
+                        <div id="search-box">
+						<form class="navbar-form">
+							<a href="/api" class="signup-btn-grey">Use our API</a>
+                            <a href="/user/sign-in?op=register" class="signup-btn">SIGN UP</a>
+                            <a href="/user/sign-in?op=login" class="login-btn">LOGIN</a>
+                            </form>                            
+                        </div>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+		
+
+   <div class="container-fluid ">
+	<div class="row-fluid" >
+	
+	
+	<div class=" content_left">
+	
+
+			<div class="submenu_link">
+			
+
+			</div>
+
+												<div id="contentid" class="user_sign-in" style="margin-bottom:40px">
+			
+									<!--div style="width: 84%;margin: 0px auto 0px;"><h1 style=" font-size: 26px; font-weight: normal;letter-spacing: -1px;">Sign In or Sign Up to Continue</h1></div-->
+    <div class="bs-docs-example" style="margin:0px auto;width:100%;">
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade  active in " id="login">
+                <div class="user-login"><legend>Sign In</legend><form action="/user/sign-in?op=login"  accept-charset="UTF-8" method="post" id="user-login">
+<div><div class="form-item" id="edit-openid-identifier-wrapper">
+ <label for="edit-openid-identifier">Log in using OpenID: </label>
+ <input type="text" maxlength="255" name="openid_identifier" id="edit-openid-identifier" size="58" value="" class="form-text" />
+ <div class="description"><a href="http://openid.net/">What is OpenID?</a></div>
+</div>
+<div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="60" value="" class="form-text required" />
+ <div class="description">Enter your Programmr username.</div>
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="128"  size="60"  class="form-text required" />
+ <div class="description">Enter the password that accompanies your username.</div>
+</div>
+<input type="hidden" name="form_build_id" id="form-0fb693ea38b1b22808bcfcf53c5bcb05" value="form-0fb693ea38b1b22808bcfcf53c5bcb05"  />
+<input type="hidden" name="form_id" id="edit-user-login" value="user_login"  />
+<input type="hidden" name="openid.return_to" id="edit-openid.return-to" value="http://www.programmr.com/openid/authenticate?destination=user%2Fsign-in%3Fop%3Dlogin"  />
+<div class="item-list"></div><div class="item-list"></div><div class="item-list"><ul><li class="openid-link first"><a href="/%2523">Log in using OpenID</a></li>
+<li class="user-link last"><a href="/%2523">Cancel OpenID login</a></li>
+</ul></div><input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+
+</div></form>
+<span id="forgot_password"><a href="/user/password">I forgot my password</a></span></div>
+              </div>
+              <div class="tab-pane fade " id="register">
+                
+              </div>
+              
+            </div>
+      
+          </div>			</div>
+		</div>
+
+
+
+	 
+	 <!----------------left-sideend---------------->
+
+	
+	</div> <!-- end of row fluid-->
+
+</div>   <!-- end of span class-->
+
+
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-25165802-2"]);_gaq.push(["_trackPageview"]);_gaq.push(["_trackPageLoadTime"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+ 
+
+    <div class="footer" style="position: absolute;bottom: 0px;width: 100%;" >
+    	<div class="container">
+	    	<p class="text-center footer-text">&#169; Programmr All rights reserved. | <a href="/privacy_policy"><small> Privacy Policy </small></a> | <a href="/terms_and_conditions"><small> Terms </small></a> </p>
+    	</div>
+    </div>
+
+     	
+ 
+    
+	<script type="text/javascript">
+	   $(document).ready(function()
+			{
+			  jQuery("#bar_open").click(function(){
+			  jQuery("#bar_wrapper").animate({marginTop:"-35px"});
+			  jQuery("#bar").css({display:"table"});
+			  jQuery("#bar").animate({marginTop:"0px"});
+			  Set_Cookie('newBar','1',360,'/','programmr.com');
+			  });
+			   jQuery("#bar").click(function(){jQuery("#bar").animate({marginTop:"-33px"});
+			    		  jQuery("#bar_wrapper").animate({marginTop:"35px"});
+						   Set_Cookie('newBar','0',360,'/','programmr.com');
+			   });
+			   
+			   var s=Get_Cookie('bar');
+			  
+			        if(s==0){
+				jQuery("#bar").css({marginTop:"-33px",display:"table"});
+			    jQuery("#bar_wrapper").css({marginTop:"35px"});
+				    
+					  }
+			    else
+				{
+				   jQuery("#bar_wrapper").css({marginTop:"-35px"});
+					   jQuery("#bar").css({marginTop:"0px",display:"table"});
+				
+				}
+			   jQuery("body").prepend(jQuery("#bar"));
+			});
+	</script>
+	<script id="_webengage_script_tag" type="text/javascript">
+			  var _weq = _weq || {};
+			  _weq['webengage.licenseCode'] = '~c2ab3384';
+			  _weq['webengage.widgetVersion'] = "4.0";
+			  
+			  (function(d){
+				var _we = d.createElement('script');
+				_we.type = 'text/javascript';
+				_we.async = true;
+				_we.src = (d.location.protocol == 'https:' ? "https://ssl.widgets.webengage.com" : "http://cdn.widgets.webengage.com") + "/js/widget/webengage-min-v-4.0.js";
+				var _sNode = d.getElementById('_webengage_script_tag');
+				_sNode.parentNode.insertBefore(_we, _sNode);
+			  })(document);
+			</script>  
+</body></html>
